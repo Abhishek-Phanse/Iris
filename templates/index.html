@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+    <title>Login or Sign Up Page</title>
+</head>
+<body>
+    <div class="whole">
+        <div class="container">
+            <form class="form" action="/result" method="POST">
+
+                <div class="box1 box">
+                    <!-- <i class="fa-solid fa-user" style="color: #0f3371;"></i> -->
+                    <img src="/static/user-solid.svg" alt="img">
+                    <!-- <i class="fa-solid fa-angle-down"></i> -->
+                    <h2>Enter the Values</h2>
+                    
+                </div>
+                
+                <div class="box2">
+                    <input type="text" id="slen" name="slen" placeholder="Sepal length" required>
+                    <input type="text" id="swid" name="swid" placeholder="Sepal width" required>
+                    <input type="text" id="plen" name="plen" placeholder="Petal length" required>
+                    <input type="text" id="pwid" name="pwid" placeholder="Petal width" required>
+                </div>
+                
+                <div class="box4">
+                    <button type="submit">PREDICT</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>

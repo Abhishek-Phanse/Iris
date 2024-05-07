@@ -1,0 +1,21 @@
+<div class="form-container">
+        <form class="form" action="/result" method="POST">
+          <div class="form-group">
+            <label for="slen">Sepal Length</label>
+            <input type="text" id="slen" name="slen" placeholder="Sepal length" required>
+          </div>
+          <div class="form-group">
+            <label for="swid">Sepal Width</label>
+            <input type="text" id="swid" name="swid" placeholder="Sepal width" required>
+          </div>
+          <div class="form-group">
+            <label for="plen">Petal Length</label>
+            <input type="text" id="plen" name="plen" placeholder="Petal length" required>
+          </div>
+          <div class="form-group">
+            <label for="pwid">Petal Width</label>
+            <input type="text" id="pwid" name="pwid" placeholder="Petal width" required>
+          </div>
+          <button class="form-submit-btn" type="submit">Submit</button>
+        </form>
+      </div>
